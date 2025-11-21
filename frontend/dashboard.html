@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Produtos</title>
-  <link rel="stylesheet" href="/style.css" >
+  <title>Sistema Supermercado</title>
+  <link rel="stylesheet" href="style.css" >
 </head>
 <body>
 
   <nav class="sidebar">
-    <h2>Supermercado</h2>
+    <h2>SuperMercado</h2>
     <ul class="nav-links">
-      <li><a href="/dashboard.html" title="Visão Geral">
+      <li><a href="/dashboard.html" class="active" title="Visão Geral">
         <svg viewBox="0 0 24 24"><path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8v-10h-8v10zm0-18v6h8V3h-8z"/></svg>
-        Visão Geral
+        Dashboard
       </a></li>
-      <li><a href="/produtos.html" class="active" title="Produtos">
+      <li><a href="/produtos.html" title="Produtos">
         <svg viewBox="0 0 24 24"><path d="M20 6H4v12h16V6zM4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/></svg>
         Produtos
       </a></li>
@@ -36,17 +36,17 @@
 
   <div class="main-content">
     <header>
-      <h1>Produtos</h1>
+      <h1>Dashboard</h1>
       <div class="profile" title="Perfil do usuário">
-        <img src="https://i.pravatar.cc/40" alt="Avatar do usuário" />
-        <span>João Silva</span>
+        <img src="user_image.png" alt="Avatar do usuário" />
+        <span>Pessoa da Silva</span>
       </div>
     </header>
 
-    <!-- <section class="dashboard">
+    <section class="dashboard">
       <div class="cards">
         <div class="card">
-          <h3>Produto mais vendido</h3>
+          <h3>Total de Vendas</h3>
           <p>R$ 45.230,00</p>
         </div>
         <div class="card">
@@ -66,7 +66,7 @@
       <div class="chart-container">
         <canvas id="salesChart" aria-label="Gráfico de vendas por dia" role="img"></canvas>
       </div>
-    </section> -->
+    </section>
   </div>
 
   <!-- Chart.js CDN -->
